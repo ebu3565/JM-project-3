@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .photo-album{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .photo-frame:hover .photo img{
+      transform: scale(1.2);
+      transition: transform 1s;
+    }
+    .photo-frame{
+     width: 300px;
+     height: 225px; 
+     border: 10px solid black;
+     position: relative;
+     margin: 5px;
+     overflow: hidden;
+    }
+    .photo-frame .photo img{
+      width: 100%;
+    }
+    .photo-detail{
+      position: absolute;
+      display: none;
+     width: 300px;
+     height: 225px;
+     top: 0%; 
+     color: red;
+    }
+    .photo-frame:hover .photo-detail{
+      display: block;
+      background-color: rgba(218, 165, 32, 0.4);
+    }
+    .photo-frame:hover .photo-detail h3{
+      color: wheat;
+      background-color: black;
+      text-align: center;
+    }
+    .photo-frame:hover .photo-detail p{
+      text-align: center;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h1>My photo book</h1>
+  <section class="photo-album">
+    <div class="photo-frame">
+      <div class="photo">
+        <img src="images/holiday.jpg" alt="">
+      </div>
+      
+    <div class="photo-detail">
+      <h3>Something      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ad expedita fuga quidem id magnam consequuntur rerum praesentium enim sed?</p>
+    </div>
+    </div>
+
+    <div class="photo-frame">
+      <div class="photo">
+        <img src="images/holiday.jpg" alt="">
+      </div>
+      
+    <div class="photo-detail">
+      <h3>Something      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ad expedita fuga quidem id magnam consequuntur rerum praesentium enim sed?</p>
+    </div>
+    </div>
+
+    <div class="photo-frame">
+      <div class="photo">
+        <img src="images/holiday.jpg" alt="">
+      </div>
+      
+    <div class="photo-detail">
+      <h3>Something      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ad expedita fuga quidem id magnam consequuntur rerum praesentium enim sed?</p>
+    </div>
+    </div>
+
+    <div class="photo-frame">
+      <div class="photo">
+        <img src="images/holiday.jpg" alt="">
+      </div>
+      
+    <div class="photo-detail">
+      <h3>Something      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ad expedita fuga quidem id magnam consequuntur rerum praesentium enim sed?</p>
+    </div>
+    </div>
+
+    <div class="photo-frame">
+      <div class="photo">
+        <img src="images/holiday.jpg" alt="">
+      </div>
+      
+    <div class="photo-detail">
+      <h3>Something      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ad expedita fuga quidem id magnam consequuntur rerum praesentium enim sed?</p>
+    </div>
+    </div>
+
+    <div class="photo-frame">
+      <div class="photo">
+        <img src="images/holiday.jpg" alt="">
+      </div>
+      
+    <div class="photo-detail">
+      <h3>Something      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ad expedita fuga quidem id magnam consequuntur rerum praesentium enim sed?</p>
+    </div>
+    </div>
+
+
+    <div class="photo-frame">
+      <div class="photo">
+        <img src="images/holiday.jpg" alt="">
+      </div>
+      
+    <div class="photo-detail">
+      <h3>Something      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ad expedita fuga quidem id magnam consequuntur rerum praesentium enim sed?</p>
+    </div>
+    </div>
+
+
+    <div class="photo-frame">
+      <div class="photo">
+        <img src="images/holiday.jpg" alt="">
+      </div>
+      
+    <div class="photo-detail">
+      <h3>Something      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ad expedita fuga quidem id magnam consequuntur rerum praesentium enim sed?</p>
+    </div>
+    </div>
+  </section>
+</body>
+</html>
